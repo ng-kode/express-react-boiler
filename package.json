@@ -1,0 +1,17 @@
+{
+  "name": "form-generator",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "prestart": "rm -rf tmp/ && mkdir tmp && cp -a ../../esmart-eapp/esmart-module-eapp-api/src/main/resources/ tmp/",
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^8.0.0",
+    "express": "~4.16.0",
+    "morgan": "~1.9.0"
+  }
+}
